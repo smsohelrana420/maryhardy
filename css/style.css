@@ -491,3 +491,80 @@ header{
     color: #fff;
 }
 /* ===================== Resume End ============================= */
+
+/* ===================== Footer Start =========================== */
+#footer{
+    background-color: #FFF8F3;
+    margin-top: 113px;
+}
+.footer_wrapper{
+    display: flex;
+    gap: 50px;
+    padding-top: 130px;
+}
+.footer-left h2{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+.footer-left p{
+    width: 550px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #474747;
+    font-family: "Open Sans", sans-serif;
+
+}
+.footer-left ul{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.footer-left ul li{
+    list-style: none;
+    font-size: 20px;
+    color: #FD6E0A;
+}
+
+.footer-right h2{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #181818;
+    margin-bottom: 28px;
+
+}
+.footer-right input{
+    width: 461px;
+    padding: 18px 0px;
+    padding-left: 30px;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.footer-right textarea{
+    width: 461px;
+    border: none;
+    padding: 20px 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-right button{
+    background-color: #FD6E0A;
+    color: #fff;
+    padding: 18px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+
+}
+/* ===================== Footer End ============================= */
