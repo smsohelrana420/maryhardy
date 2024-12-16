@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+nav{
+    position: relative;
+}
+nav .developer{
+position: absolute;
+left: 200px;
+top: 10px;
+padding: 10px;
+}
+header{
+    position: absolute;
+    width: 100%;
+}
+.nav_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+.nav_wrapper h2{
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+    font-family: "Open Sans", sans-serif;
+}
+.nav_wrapper h2 span{
+    color: #FD6E0A;
+}
+.nav_wrapper ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.nav_wrapper ul li{
+    list-style: none;
+}
+.nav_wrapper ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #474747;
+
+}
+.nav_wrapper ul li button{
+    padding: 19px 36px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    font-family: "Open Sans", sans-serif;
+}
+#banner{
+      
+    background-color: #FFF8F3;
+}
+
+.banner_wrapper{
+    display: flex;
+    
+}
+.banner-left{
+    padding-top: 250px;
+}
+.banner-left h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    font-family: "Open Sans", sans-serif;
+}
+.banner-left h1{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    font-family: "Open Sans", sans-serif;
+    text-wrap: nowrap;
+}
+.banner-left p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #474747;
+    font-family: "Open Sans", sans-serif;
+    line-height: 30px;
+    width: 585px;
+    margin-top: 20px;
+}
+.banner-right{
+    position: relative;
+    margin-top: 200px;
+    padding-top: 100px;
+    
+}
+.banner-right .manimg img{
+    position: absolute;
+    bottom: 5px;
+    left: 200px;
+}
+
+.banner-btn{
+    margin-top: 30px;
+    display: flex;
+}
+.banner-btn button{
+    padding: 19px 17px 19px 51px;
+    background-color: #FD6E0A;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 5px;
+}
+.banner-btn .secondary-btn{
+    background: transparent;
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 5px;
+    
+}
+
+.banner-btn .braket{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    color: #fff;
+}
+.banner-btn .down{
+    position: relative;
+}
+
+.banner-btn .phn{
+    position: absolute;
+    left: 40px;
+    top: 25px;
+    color: #000000;
+
+}
+.banner-btn .cont{
+    position: relative;
+}
+.about-text{
+    background-color: #FFF8F3;
+   margin-top: 50px;
+   border-radius: 10px;
+    
+}
+.about-text{
+    text-align: center;
+}
+.about-text h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 131px;
+
+}
+.about-text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #474747;
+    font-family: "Open Sans", sans-serif;
+    width: 827px;
+    margin-left: 200px;
+    margin-top: 20px;
+
+}
+.about-address{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding-bottom: 80px;
+}
+.about-address h6{
+    color: #474747;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+
+}
+.about-address h5{
+    color: #181818;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+
+}
+.what-title{
+    text-align: center;
+    margin-top: 150px;
+}
+.what-title h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    font-family: "Open Sans", sans-serif;
+
+}
+.what-title p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #474747;
+    font-family: "Open Sans", sans-serif;
+    width: 909px;
+    margin-left: 120px;
+    margin-top: 30px;
+
+}
+.cart{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+.cart1{
+    -webkit-box-shadow: 0px 6px 20px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 6px 20px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 6px 20px 0px rgba(0,0,0,0.6);
+    width: 267px;
+    padding: 10px 30px;
+}
+.cart1 h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 5px;
+
+}
+.cart1 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+    font-family: "Open Sans", sans-serif;
+    line-height: 28px;
+    margin-top: 5px;
+    width: 201px;
+
+}
